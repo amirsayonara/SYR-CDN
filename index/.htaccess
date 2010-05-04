@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(.*)$ index.php?file=$1 [L,QSA]
+#DirectorySlash Off
